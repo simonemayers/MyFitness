@@ -10,6 +10,8 @@ import SwiftData
 
 @main
 struct MyFitnessApp: App {
+    @StateObject private var userData = UserData()
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -26,7 +28,13 @@ struct MyFitnessApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(userData)
+
         }
         .modelContainer(sharedModelContainer)
     }
 }
+//#Preview{
+//    MyFitnessApp().body.environmentObject(UserData()) as! any View
+//}
+

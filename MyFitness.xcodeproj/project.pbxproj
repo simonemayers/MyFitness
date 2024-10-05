@@ -8,19 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		EB7F0CA62CB1CEB50002B12B /* MyFitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CA52CB1CEB50002B12B /* MyFitnessApp.swift */; };
-		EB7F0CA82CB1CEB50002B12B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CA72CB1CEB50002B12B /* ContentView.swift */; };
 		EB7F0CAA2CB1CEB50002B12B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CA92CB1CEB50002B12B /* Item.swift */; };
 		EB7F0CAC2CB1CEB90002B12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7F0CAB2CB1CEB90002B12B /* Assets.xcassets */; };
 		EB7F0CAF2CB1CEB90002B12B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7F0CAE2CB1CEB90002B12B /* Preview Assets.xcassets */; };
+		EB7F0CB92CB1D0210002B12B /* FoodLoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CB62CB1D0200002B12B /* FoodLoggingView.swift */; };
+		EB7F0CBA2CB1D0210002B12B /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CB72CB1D0210002B12B /* DataModels.swift */; };
+		EB7F0CBC2CB1D3DB0002B12B /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CBB2CB1D3DB0002B12B /* PersistenceController.swift */; };
+		EB7F0CBE2CB1D45B0002B12B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CBD2CB1D45B0002B12B /* UserData.swift */; };
+		EB7F0CC02CB1D4B30002B12B /* MainViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CBF2CB1D4B30002B12B /* MainViews.swift */; };
+		EB7F0CC22CB1DFED0002B12B /* ExerciseLoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CC12CB1DFED0002B12B /* ExerciseLoggingView.swift */; };
+		EB7F0CC42CB1E5430002B12B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CC32CB1E5430002B12B /* ProfileView.swift */; };
+		EB7F0CC62CB1EF9E0002B12B /* FoodPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F0CC52CB1EF9E0002B12B /* FoodPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB7F0CA22CB1CEB50002B12B /* MyFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7F0CA52CB1CEB50002B12B /* MyFitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFitnessApp.swift; sourceTree = "<group>"; };
-		EB7F0CA72CB1CEB50002B12B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB7F0CA92CB1CEB50002B12B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EB7F0CAB2CB1CEB90002B12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7F0CAE2CB1CEB90002B12B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB7F0CB62CB1D0200002B12B /* FoodLoggingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodLoggingView.swift; sourceTree = "<group>"; };
+		EB7F0CB72CB1D0210002B12B /* DataModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		EB7F0CBB2CB1D3DB0002B12B /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		EB7F0CBD2CB1D45B0002B12B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		EB7F0CBF2CB1D4B30002B12B /* MainViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViews.swift; sourceTree = "<group>"; };
+		EB7F0CC12CB1DFED0002B12B /* ExerciseLoggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLoggingView.swift; sourceTree = "<group>"; };
+		EB7F0CC32CB1E5430002B12B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EB7F0CC52CB1EF9E0002B12B /* FoodPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +68,17 @@
 			isa = PBXGroup;
 			children = (
 				EB7F0CA52CB1CEB50002B12B /* MyFitnessApp.swift */,
-				EB7F0CA72CB1CEB50002B12B /* ContentView.swift */,
+				EB7F0CBD2CB1D45B0002B12B /* UserData.swift */,
+				EB7F0CB72CB1D0210002B12B /* DataModels.swift */,
+				EB7F0CB62CB1D0200002B12B /* FoodLoggingView.swift */,
+				EB7F0CC52CB1EF9E0002B12B /* FoodPickerView.swift */,
+				EB7F0CBB2CB1D3DB0002B12B /* PersistenceController.swift */,
+				EB7F0CBF2CB1D4B30002B12B /* MainViews.swift */,
 				EB7F0CA92CB1CEB50002B12B /* Item.swift */,
 				EB7F0CAB2CB1CEB90002B12B /* Assets.xcassets */,
 				EB7F0CAD2CB1CEB90002B12B /* Preview Content */,
+				EB7F0CC12CB1DFED0002B12B /* ExerciseLoggingView.swift */,
+				EB7F0CC32CB1E5430002B12B /* ProfileView.swift */,
 			);
 			path = MyFitness;
 			sourceTree = "<group>";
@@ -140,9 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7F0CA82CB1CEB50002B12B /* ContentView.swift in Sources */,
+				EB7F0CB92CB1D0210002B12B /* FoodLoggingView.swift in Sources */,
+				EB7F0CC62CB1EF9E0002B12B /* FoodPickerView.swift in Sources */,
+				EB7F0CC42CB1E5430002B12B /* ProfileView.swift in Sources */,
+				EB7F0CBA2CB1D0210002B12B /* DataModels.swift in Sources */,
 				EB7F0CAA2CB1CEB50002B12B /* Item.swift in Sources */,
+				EB7F0CBC2CB1D3DB0002B12B /* PersistenceController.swift in Sources */,
+				EB7F0CBE2CB1D45B0002B12B /* UserData.swift in Sources */,
 				EB7F0CA62CB1CEB50002B12B /* MyFitnessApp.swift in Sources */,
+				EB7F0CC22CB1DFED0002B12B /* ExerciseLoggingView.swift in Sources */,
+				EB7F0CC02CB1D4B30002B12B /* MainViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
